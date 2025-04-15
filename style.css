@@ -96,6 +96,13 @@ header #profile{
     max-width: 384px;
 }
 
+#profile img{
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #profile h1{
     font: var(--text-lg);
     color: var(--tcp-color);
@@ -117,6 +124,31 @@ header #profile{
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+main img{
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    font: 14px/150% var(--font-family);
+    
+}
+
+footer span:nth-child(1){
+    margin-right: auto;
 }
 
 .container{
