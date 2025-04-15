@@ -45,3 +45,41 @@ body{
     color: var(--tcs-color);
     background-color: var(--bg-color);
 }
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-block: 8px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--tcs-color);
+}
+
+a:hover{
+    color: var(--pd-color);
+    text-decoration: underline;
+}
+
+.container{
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.surface-color{
+    background-color: var(--sf-color);
+}
